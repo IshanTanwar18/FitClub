@@ -4,9 +4,9 @@ export default function Home() {
   return (
     <div className="flex flex-col w-full">
       
-      {/* 1. Hero Section */}
+     
       <div className="relative bg-gray-900 h-[600px] flex items-center justify-center">
-        {/* Placeholder for Background Image - You can add style={{ backgroundImage: url(...) }} here */}
+   
         <div className="absolute inset-0 overflow-hidden">
           <img 
             src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" 
@@ -24,7 +24,7 @@ export default function Home() {
             Join the ultimate fitness community. Access expert-led workout plans, nutrition guides, and track your progress in real-time.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            {/* Links to your Landing/Plans page */}
+          
             <Link 
               to="/plans" 
               className="px-8 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-lg transition duration-200 text-lg shadow-lg"
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 2. Stats Section */}
+    
       <div className="bg-white py-12 border-b">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           <div>
@@ -63,7 +63,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 3. Features Section */}
       <div className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
@@ -72,7 +71,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Feature 1 */}
+         
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
               <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-6 text-2xl">
                 💪
@@ -83,7 +82,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 2 */}
+       
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
               <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-6 text-2xl">
                 🥗
@@ -94,7 +93,7 @@ export default function Home() {
               </p>
             </div>
 
-            {/* Feature 3 */}
+        
             <div className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition">
               <div className="w-12 h-12 bg-indigo-100 text-indigo-600 rounded-full flex items-center justify-center mb-6 text-2xl">
                 📈
@@ -108,7 +107,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* 4. Call to Action Banner */}
       <div className="bg-indigo-600 py-16 px-6">
         <div className="max-w-4xl mx-auto text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to start your journey?</h2>
