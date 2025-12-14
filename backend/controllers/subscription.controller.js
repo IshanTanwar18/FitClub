@@ -10,7 +10,7 @@ plan: req.body.planId,
 
 
 
-
+if (exists) return res.json({ message: "Already subscribed" });
 
 const sub = await Subscription.create({
 user: req.user.id,
