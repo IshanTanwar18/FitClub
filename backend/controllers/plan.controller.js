@@ -1,5 +1,5 @@
 import Plan from "../models/Plan.js";
-import Subscription from "../models/Subscription.js";
+
 
 
 export const createPlan = async (req, res) => {
