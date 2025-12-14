@@ -11,9 +11,9 @@ export default function Signup() {
       await api.post("/auth/signup", form);
       alert("Signup Successful");
 
-      // ✅ Redirect to login page
       navigate("/login");
     } catch (err) {
+      
       alert(err.response?.data?.message || "Signup failed");
     }
   };
